@@ -9,7 +9,7 @@ function agregaImagen() {
         var img = document.createElement("img");
         var p = document.createElement("p");
 
-        img.src = URL;
+        img.src = "./" + URL;
         img.width = 300;
         img.height = 250;
 
